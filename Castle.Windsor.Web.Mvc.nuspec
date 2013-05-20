@@ -16,8 +16,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="App_Start\*.pp" target="content" />
-    <file src="Installers\*.pp" target="content" />
-    <file src="Plumbing\*.pp" target="content" />
+    <file src="App_Start\*.pp" target="content\App_Start" />
+    <file src="Installers\*.pp" target="content\Installers" />
+    <file src="Plumbing\*.pp" target="content\Plumbing" />
   </files>
 </package>
