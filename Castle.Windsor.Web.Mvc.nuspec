@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Castle.Windsor.Web.Mvc</id>
+    <version>1.0.0</version>
+    <title>Castlw Windsor MVC Bootstrapper</title>
+    <authors>CreditInfo Solution s.r.o.</authors>
+    <owners>CreditInfo Solution s.r.o.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains APIs for Connector implementers.</description>
+    <tags>Castle Windsor Mvc AspNet</tags>
+    <dependencies>
+      <dependency id="Castle.Windsor" version="3.2.0"/>
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.20710.0" />
+      <dependency id="WebActivatorEx" version="2.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="App_Start\*.pp" target="content" />
+    <file src="Installers\*.pp" target="content" />
+    <file src="Plumbing\*.pp" target="content" />
+  </files>
+</package>
