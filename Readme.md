@@ -14,3 +14,5 @@ implementing `IWindsorInstaller` interface.
 
 Fo more informations [how to use Windsor](http://docs.castleproject.org/Windsor.MainPage.ashx) see the
 [documentation](http://docs.castleproject.org/Windsor.MainPage.ashx).
+
+[![endorse](https://api.coderwall.com/rarous/endorsecount.png)](https://coderwall.com/rarous)
