@@ -1,7 +1,7 @@
 Castle.Windsor ASP.NET MVC bootstrapping package
 ------------------------------------------------
 
-This package simplyfies bootstrapping of `Castle.Windsor` container in your ASP.NET MVC 4 application. 
+This package simplifies bootstrapping of `Castle.Windsor` container in your ASP.NET MVC 4 application. 
 To install this package, use following NuGet command:
 
     PM> Install-Package Castle.Windsor.Web.Mvc
