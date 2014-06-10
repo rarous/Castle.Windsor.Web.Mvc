@@ -17,7 +17,7 @@ namespace $rootnamespace$.Plumbing
 
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
         {            
-			if (controllerType != null && container.HasComponent(controllerType))
+			if (controllerType != null && container.Kernel.HasComponent(controllerType))
 				return (IController)container.Resolve(controllerType);
 
 			return base.GetControllerInstance(requestContext, controllerType);
